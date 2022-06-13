@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    /* overflow-x:; */
+}
+.container
+{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+    border: 2px solid black;
+    position: relative;
+    top: 120px;
+}
+.table table
+{
+    border: 2px solid rgb(206, 202, 202);
+    width: 1100px;
+    /* height: 1200px; */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+th,td
+{
+    border: 1px solid black;
+    padding: 2px 0px;
+    text-align: center;
+}
+.table table td
+{
+    font-weight: 500;
+}
+thead
+{
+    border: 12px solid rgb(241, 19, 19);
+}
+.left_align
+{
+    text-align: left;
+}
+.text_sizing
+{
+    font-size: 20px;
+}
+.padding
+{
+    /* IN MAX MARKS  */
+    padding: 2px 25px;
+}
+.color
+{
+    background-color: rgba(223, 215, 215, 0.5) ;
+}
+
+
+/* UPPER PORTION */
+.upper_part .image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    /* position: absolute;
+    border: 2px solid black; */
+}
+.upper_part .image img
+{
+    height: 200px;
+    width: 200px;
+}
+.upper_part h3
+{
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;    
+    /* border: 2px solid black; */
+    display: inline;
+    margin-top: 135px;
+    margin-left: 0;
+    padding-left: 0;
+    position: absolute;
+}
+
+.content1 h2
+{
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 12px;
+}
+.content1 h2 + p
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 7px;
+}
+.content1 p + h1
+{
+    font-size: 2.2rem;
+    text-align: center;
+    padding-top: 12px;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+.middle_part
+{
+    /* border: 2px solid black; */
+    margin: 5px 4px;
+    position: relative;
+}
+.middle_part ul
+{
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+.middle_part .name
+{
+    /* border: 1px solid red; */
+    width: 28%;
+}
+.middle_part .name ul li
+{
+    font-weight: 600;
+}
+.middle_part .answer
+{
+    /* border: 1px solid red; */
+    width: 28%;
+    position: absolute;
+    margin-top: -186.5px;
+    margin-left: 28%;
+
+}
+.middle_part .answer ul li
+{
+    font-weight: 400;
+}
+.code
+{
+    height: 70px;
+    width: 100px;
+    margin-top: 10px;
+}
+.lower_part h3
+
+{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: block;
+}
+.lower_part span
+{
+    font-weight: 600;
+}
+.lower_part p
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* .signature
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.signature .sign1
+{
+    height: 100px;
+    width: 400px;
+    border: 0px solid black;
+    border-bottom-width: 5px ;
+    border-style: solid;
+    border-color: black;
+    margin: 80px 0 20px 30px;
+}
+
+.signature .sign2
+{
+    height: 100px;
+    width: 550px;
+    border: 0px solid black;
+    border-bottom-width: 5px ;
+    border-style: solid;
+    border-color: black;
+    margin: 100px 0 20px 30px;
+} */
